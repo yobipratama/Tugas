@@ -1,0 +1,48 @@
+# JOBSHEET V (Pertemuan 6)
+### Yoby Ryaian Pratama
+2### 041720039/ 25/ TI 1H
+
+5.2.3 Pertanyaan
+<img src="./Pictures/yobiii/1.jpeg">
+Jawaban
+1. Terdapat method void BubbleSort di program class DaftarMahasiswaBerprestasi 
+2. Terdapat method void SelectionleSort di program class DaftarMahasiswaBerprestasi
+3. Swap adalah sebuah proses pertukaran (swapping) nilai dengan elemen terkiri (awal) yang belum terurut, dan proses berlanjut ke ke elemen
+   berikutnya. Algoritma ini akan menggeser  nilai yang terkecil atau terbesar (sesuai dengan jenis pengurutan, ascending atau descending) 
+   ke posisi ujung dari daftar, hingga semua daftar dalam keadaan terurut.
+4. Untuk menjalankan sebuah proses pertukaran ketika if tersebut terpenuhi, proses penukaran nilai dengan bertujuan agar nilai menjadi urut, 
+   dengan proses menggeser  nilai yang terkecil atau terbesar (sesuai dengan jenis pengurutan, ascending atau descending) ke posisi ujung
+   dari daftar, hingga semua daftar dalam keadaan terurut.
+5. a. Apabila perulangan i dimulai dari index 0, I dibatasi dengan kurang dari panjang
+      listMhs yang di kurangi 1, atau sampai panjang arraynya. Tetapi apabila perulangan j dimulai dari index 1 dan j dibatasi dengan kurang 
+      dari panjang listMhs yang dikurangi i. Hal tersebut juga memiliki fungsi beda yaitu jika perulangan i untuk melakukan perulangan pada 
+      tahap sorting, apabila perulangan j tetapi masih belom urut maka
+      akan diulang sampai proses perulangan j terpenuhi, sedangkan j untuk perulangan swap atau penukaran.
+   b. Karena perulangan tersebut hanya di batasi sepanjang listMhs yang dikurangi 1, jadi kode tersebut berfungi sebagai batas dari tahap 
+      sorting, dengan pengurangan panjang index listMhs  yang dikurangi 1 hingga habis.
+   c. Karena perulangan tersebut hanya di batasi sepanjang listMhs yang dikurangi i, jadi kode tersebut berfungi sebagai batas dari tahap swap, 
+      dengan pengurangan panjang index listMhs  yang dikurangi I yang berarti perulangan swap akan terjadi hingga habis.
+   d. Maka akan mengulang i sebanyak 49 kali, tetapi pada tahap menggunakan bubble
+      sort maka akan dilakukan sebanyak 1225 kali untuk menswap, karena melakukan swap hingga kondisi bubble sort ini sudah urut.
+
+5.3.3. Pertanyaan
+<img src="./Pictures/yobiii/2.jpeg">
+1.  Proses tersebut digunakan untuk Proses pengurutan dilakukan melalui pencairan nilai 
+    terbesar atau terkecil (tergantung tujuan pengurutan), kemudian terjadi pertukaran (swapping)
+    dengan elemen terkiri (awal) yang belum terurut, dan proses berlanjut ke ke elemen berikutnya.
+    Berbeda dengan bubble sort yang menukar langsung ketika menemukan elemen yang lebih
+    besar/kecil, selection sort mencari element terkecil/terbesar kemudian menukarnya.
+ 
+    idxMin = i merupakan variabel baru yang sama dengan tahap sorting. Setelah itu terjadi 
+    perulangan j, yang berarti j akan dimulai dari proses sorting dengan akan bertambah 1 untuk
+    mencari elemen. Setelah itu if (listMhs[j].ipk < listMhs[idxMin].ipk) itu apabila jika melakukan
+    sorting ipk, kemudian apa bila ketika proses sorting menemukan elemen yang kurang dari ipk
+    pada index pertama maka akan di tukar atau swap.
+
+    5.4.3 Pertanyaan
+    <img src="./Pictures/yobiii/3.jpeg">
+1.  Apabila di program class di method insertionSort di beri parameter boolean asc, maka pada
+    main sebelum pemanggilan method insertionSort harus dibuatkan sebuah variabel yang bertipe
+    data boolean yang mengartikan sebuah nilai true(benar). Dan pada pemanggilan method maka
+    di beri sebuah pemanggilan asc agar mewakili sebuah parameter di class method insertionSort
+    (boolean asc).
